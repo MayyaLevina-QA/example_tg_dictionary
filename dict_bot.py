@@ -5,7 +5,7 @@ from telebot import types
 import json
 import random
 
-bot = telebot.TeleBot(token='5967808779:AAGzt7UrtZ_Al97jj8cGJYRBQx96YYOERtg', parse_mode='html')
+bot = telebot.TeleBot(token='Тут должен быть ваш токен', parse_mode='html')
 
 with open('dict.json', "r", encoding="utf-8") as json_file:
     DEFINITIONS = json.load(json_file)
